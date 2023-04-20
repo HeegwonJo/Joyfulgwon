@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.LinkedList;
+
 public class String3 {
 
     public static void main(String[] args){
@@ -8,6 +10,7 @@ public class String3 {
     }
 
     public String solution(String s){
+
         String answer;
         char[] str=s.toCharArray();
         int left=0, right=s.length()-1;
