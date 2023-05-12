@@ -6,8 +6,9 @@ import java.util.Queue;
 public class BFS_1 {
     public static void main(String[] args) {
         BFS_1 P = new BFS_1();
-        System.out.println(P.solution(5, 14));
+        System.out.println(P.solution(5, 12));
         System.out.println(P.solution(8, 3));
+        System.out.println(P.solution(5, 14));
     }
 
     private int solution(int s, int e) {

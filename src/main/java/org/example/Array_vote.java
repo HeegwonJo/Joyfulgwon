@@ -33,6 +33,7 @@ public class Array_vote {
                answer[x[0]]++;
            }
        }
+
         return answer;
     }
 }

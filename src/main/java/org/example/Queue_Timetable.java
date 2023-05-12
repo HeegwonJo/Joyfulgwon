@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import java.util.*;
-class Main {
+public class Queue_Timetable {
     public ArrayList<String> solution(String need, String[] plans){
         ArrayList<String> answer=new ArrayList<>();
         String res="YES";
