@@ -4,7 +4,7 @@ import java.util.*;
 
 public class P42895 {
     public static void main(String[] args) {
-        P42895 T = new P42895;
+        P42895 T = new P42895();
         System.out.println(T.solution(5,12));
     }
 
