@@ -11,17 +11,17 @@ public class B11047 {
         int N = sc.nextInt();
         int K = sc.nextInt();
         Integer[] values = new Integer[N];
-        for(int i = 0 ; i< N; i++){
+        for (int i = 0; i < N; i++) {
             values[i] = sc.nextInt();
         }
         Arrays.sort(values, Comparator.reverseOrder());
 
-        for(int x : values){
-            if(K>x) {
-               answer += K/x;
-               K=K%x;
+        for (int x : values) {
+            if (K > x) {
+                answer += K / x;
+                K = K % x;
             }
-            if(K ==0 ) break;
+            if (K == 0) break;
         }
 
         System.out.println(answer);
