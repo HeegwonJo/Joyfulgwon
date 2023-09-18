@@ -14,7 +14,6 @@ public class KiwiJuiceEasy {
             int sum = bottles[fromId[i]] + bottles[toId[i]];
             bottles[toId[i]] = Math.min(sum, capacities[toId[i]]);
             bottles[fromId[i]] = sum-bottles[toId[i]];
-
         }
         return bottles;
     }
